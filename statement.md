@@ -1,4 +1,5 @@
-# 
+# description: 
+ Distinct pointer types can not be compared with equality operators
 ```C++ runnable
 #include <iostream>
 
@@ -24,6 +25,3 @@ int main(int argc, char** argv)
 }
 ```
 
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced C++ template](https://tech.io/select-repo/598)
