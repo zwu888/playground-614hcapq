@@ -1,16 +1,26 @@
-# Welcome!
-
-This C++ template lets you get started quickly with a simple one-page playground.
-
+# 
 ```C++ runnable
 #include <iostream>
 
-using namespace std;
-
-int main() 
+struct Foo
 {
-    cout << "Hello, World!";
-    return 0;
+};
+
+struct Bar 
+{
+};
+
+int main(int argc, char** argv)
+{
+  Foo* f = new Foo;
+  Bar* b = new Bar;
+
+  if ( f == b )
+    std::cout << "EQUAL" << std::endl;
+  else
+    std::cout << "NOT EQUAL" << std::endl;
+
+  return 0;
 }
 ```
 
